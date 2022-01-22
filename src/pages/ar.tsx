@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import * as THREE from "three";
+import React, { useEffect } from 'react';
+import * as THREE from 'three';
 
 const Sample1 = () => {
   /** case1 */
@@ -10,7 +10,7 @@ const Sample1 = () => {
 
     // レンダラを作成
     const renderer: any = new THREE.WebGLRenderer({
-      canvas: document.querySelector("#nyumon-sample1") as HTMLCanvasElement
+      canvas: document.querySelector('#nyumon-sample1') as HTMLCanvasElement,
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
@@ -47,7 +47,7 @@ const Sample1 = () => {
 
     // レンダラを作成
     const renderer: any = new THREE.WebGLRenderer({
-      canvas: document.querySelector("#nyumon-sample2") as HTMLCanvasElement
+      canvas: document.querySelector('#nyumon-sample2') as HTMLCanvasElement,
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
@@ -85,7 +85,7 @@ const Sample1 = () => {
 
     // レンダラを作成
     const renderer: any = new THREE.WebGLRenderer({
-      canvas: document.querySelector("#nyumon-sample3") as HTMLCanvasElement
+      canvas: document.querySelector('#nyumon-sample3') as HTMLCanvasElement,
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
@@ -123,7 +123,7 @@ const Sample1 = () => {
 
     // レンダラを作成
     const renderer: any = new THREE.WebGLRenderer({
-      canvas: document.querySelector("#nyumon-sample4") as HTMLCanvasElement
+      canvas: document.querySelector('#nyumon-sample4') as HTMLCanvasElement,
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
@@ -173,7 +173,7 @@ const Sample1 = () => {
 
     // レンダラを作成
     const renderer: any = new THREE.WebGLRenderer({
-      canvas: document.querySelector("#nyumon-sample5") as HTMLCanvasElement
+      canvas: document.querySelector('#nyumon-sample5') as HTMLCanvasElement,
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(width, height);
@@ -186,10 +186,8 @@ const Sample1 = () => {
     camera.position.set(0, 0, +1000);
 
     // 箱を作成
-    let boxes: THREE.Mesh<
-      THREE.BoxGeometry,
-      THREE.MeshNormalMaterial
-    >[] = new Array(200).fill(null).map(_ => createBoxFunc());
+    let boxes: THREE.Mesh<THREE.BoxGeometry, THREE.MeshNormalMaterial>[] =
+      new Array(200).fill(null).map((_) => createBoxFunc());
 
     boxes.forEach((v, i) => {
       v.position.x = Math.floor(Math.random() * 1200 - 600);
@@ -202,7 +200,7 @@ const Sample1 = () => {
 
     // 毎フレーム時に実行されるループイベント
     function tick() {
-      boxes.forEach(v => {
+      boxes.forEach((v) => {
         v.rotation.y += 0.01;
         v.rotation.x += 0.01;
       });
@@ -228,19 +226,19 @@ const Sample1 = () => {
     <>
       <h2>入門編 - sample1</h2>
       <h3>case1</h3>
-      <div className="w-full">
-      <canvas id="nyumon-sample1" /></div>
+      <div className='w-full'>
+        <canvas id='nyumon-sample1' />
+      </div>
       <h3>case2 - ローテーションz軸方向追加</h3>
-      <canvas id="nyumon-sample2" />
+      <canvas id='nyumon-sample2' />
       <h3>case3 - ローテーション速度up</h3>
-      <canvas id="nyumon-sample3" />
+      <canvas id='nyumon-sample3' />
       <h3>case4 - さらにローテーション速度up</h3>
-      <canvas id="nyumon-sample4" />
+      <canvas id='nyumon-sample4' />
       <h3>case5 - 箱増殖(200個)</h3>
-      <canvas id="nyumon-sample5" />
+      <canvas id='nyumon-sample5' />
     </>
   );
 };
-
 
 export default Sample1;

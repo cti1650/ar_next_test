@@ -19,16 +19,10 @@ const TailwindApp = (props: AppProps) => {
           name='viewport'
           content='width=device-width,initial-scale=1.0,minimum-scale=1.0'
         ></meta>
-        <meta
-          name='description'
-          content=''
-        />
+        <meta name='description' content='' />
         <meta name='keywords' content='HTML,CSS,Tailwind.css'></meta>
         <meta property='og:title' content='AR x React Tester' />
-        <meta
-          property='og:description'
-          content=''
-        />
+        <meta property='og:description' content='' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='' />
         <meta property='og:image' content='/icon/tailwind_cc-128x128.ico' />
