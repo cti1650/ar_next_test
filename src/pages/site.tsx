@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div className='container max-w-screen-md mx-auto text-sans'>
       <Head>
-        <title>Tailwind CC - Links</title>
-        <meta property='og:title' content='Tailwind CC' />
+        <title>AR x React Tester - Links</title>
+        <meta property='og:title' content='AR x React Tester' />
       </Head>
 
       <div className='w-full text-gray-900 p-4'>
