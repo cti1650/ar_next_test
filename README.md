@@ -3,3 +3,19 @@
 ## サンプルを実行
 
 - [GitPod でサンプルを実行](https://gitpod.io/#https://github.com/cti1650/ar_react_test)
+
+## 参考
+
+- [react-three-arjs/index.js at main · artcom/react-three-arjs](https://github.com/artcom/react-three-arjs/blob/main/example/src/index.js)  
+- [AR React npm - Google 検索](https://www.google.com/search?q=AR+React+npm&sxsrf=AOaemvJHNe9b7tUsfFFr0CsUaR2_nusORg:1642946621312&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjcxv2Nhcj1AhWowosBHYVjCEI4ChD8BSgCegQIARAE&biw=1440&bih=732&dpr=2)  
+- [pmndrs/react-xr: 🤳 VR/AR with react-three-fiber](https://github.com/pmndrs/react-xr#readme)  
+- [pmndrs / react-three-fiber：🇨🇭Three.js用のReactレンダラー](https://github.com/pmndrs/react-three-fiber)  
+- [スマホARを作ろう - こくぶん研究室](https://kkblab.com/make/javascript/ar.html)  
+- [aframe-react - npm](https://www.npmjs.com/package/aframe-react)  
+- [supermedium/aframe-react: Build virtual reality experiences with A-Frame and React.](https://github.com/supermedium/aframe-react#readme)  
+- [react-aframe-ar - npm](https://www.npmjs.com/package/react-aframe-ar)  
+- [AR.jsでWebARしてみる(7) Introduction to Scripting](https://zenn.dev/zgw426/articles/f14ddc14eaffe9487c93)  
+- [react-aframe-ar - npm](https://www.npmjs.com/package/react-aframe-ar)  
+- [react-aframe-starter/index.js at master · tnga/react-aframe-starter](https://github.com/tnga/react-aframe-starter/blob/master/src/index.js)  
+- [vr-mode-ui – A-Frame](https://aframe.io/docs/1.2.0/components/vr-mode-ui.html)  
+- [WebVRコンテンツをReactで開発するためのaframe-react紹介 | maesblog](https://mae.chab.in/archives/60182)  

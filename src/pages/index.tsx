@@ -1,3 +1,4 @@
+import { Ar } from '@comp/ar/part';
 import {
   MoveBox1,
   MoveBox2,
@@ -21,6 +22,7 @@ const Sample1 = () => {
       <MoveBox4 />
       <h3>case5 - 箱増殖(200個)</h3>
       <MoveBox5 />
+      <Ar />
     </>
   );
 };
