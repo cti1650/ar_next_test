@@ -18,4 +18,7 @@
 - [react-aframe-ar - npm](https://www.npmjs.com/package/react-aframe-ar)  
 - [react-aframe-starter/index.js at master · tnga/react-aframe-starter](https://github.com/tnga/react-aframe-starter/blob/master/src/index.js)  
 - [vr-mode-ui – A-Frame](https://aframe.io/docs/1.2.0/components/vr-mode-ui.html)  
-- [WebVRコンテンツをReactで開発するためのaframe-react紹介 | maesblog](https://mae.chab.in/archives/60182)  
+- [WebVRコンテンツをReactで開発するためのaframe-react紹介 | maesblog](https://mae.chab.in/archives/60182) 
+- [A-FrameとReact.jsでWebサイトのVR化を試みた話 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/6717/)  
+- [A-FrameでVR選手ロッカーを作ってみた話 - Crieit](https://crieit.net/posts/A-Frame-VR-5f4e55e505ae0)  
+
