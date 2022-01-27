@@ -1,6 +1,4 @@
-import Link from 'next/link';
 import React from 'react';
-import { TailwindSearch } from '../search/tailwind';
 
 type typeProps = {
   children?: JSX.Element;

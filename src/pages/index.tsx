@@ -12,7 +12,7 @@ const Sample1 = () => {
   return (
     <>
       <h2>入門編 - sample1</h2>
-      <h3>case1</h3>
+      {/* <h3>case1</h3>
       <MoveBox1 />
       <h3>case2 - ローテーションz軸方向追加</h3>
       <MoveBox2 />
@@ -21,7 +21,7 @@ const Sample1 = () => {
       <h3>case4 - さらにローテーション速度up</h3>
       <MoveBox4 />
       <h3>case5 - 箱増殖(200個)</h3>
-      <MoveBox5 />
+      <MoveBox5 /> */}
       <Ar />
     </>
   );

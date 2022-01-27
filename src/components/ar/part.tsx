@@ -2,6 +2,7 @@ import { Entity, Scene } from 'aframe-react';
 import { useEffect, useState } from 'react';
 
 export const Ar = () => {
+    const [rendered,setRendered] = useState(false);
 // useEffect(()=>{
 // AFRAME.registerComponent('updater', {
 // 	init: function()
@@ -35,23 +36,24 @@ export const Ar = () => {
 // 	}
 // });
 // },[]);
+useEffect(()=>{
+    if (typeof window !== "undefined") {
+        require("aframe");
+        setRendered(true);
+      }
+},[]);
 return (
     <>
-        <Scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;" width="1000px" height="500px">
-            <Entity id="earth-sphere" geometry={{ primitive:'plane'}} src="images/earth-sphere.jpg">
-            </Entity>
-            <Entity primitive="a-marker" type="pattern" url="data/kanji.patt">
+        {rendered && <Scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
+            <Entity primitive="a-marker" preset="hiro">
                 <Entity
-                primitive="a-sphere"
-                    id="earth"
-                    position="0 0.5 0" 
-                    material="src: #earth-sphere; transparent: true; opacity: 0.95;"
-                    spinner >               
+                primitive="a-box"
+                position="0 0.5 0" wireframe="true" >               
                 </Entity>
             </Entity>
             <Entity camera></Entity>
             <Entity updater></Entity>
-        </Scene>
+        </Scene>}
     </>
 );
 
