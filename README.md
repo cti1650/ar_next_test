@@ -21,4 +21,7 @@
 - [WebVRコンテンツをReactで開発するためのaframe-react紹介 | maesblog](https://mae.chab.in/archives/60182) 
 - [A-FrameとReact.jsでWebサイトのVR化を試みた話 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/6717/)  
 - [A-FrameでVR選手ロッカーを作ってみた話 - Crieit](https://crieit.net/posts/A-Frame-VR-5f4e55e505ae0)  
+- [A-FrameでVR選手ロッカーを作ってみた話 - Crieit](https://crieit.net/posts/A-Frame-VR-5f4e55e505ae0)  
+- [aframe-next-static/index.js at master · michaltakac/aframe-next-static](https://github.com/michaltakac/aframe-next-static/blob/master/pages/index.js)  
+- [A-Frame: パーティクルコンポーネント調査 - Qiita](https://qiita.com/matsukatsu/items/adec590eddad5510c196)  
 
