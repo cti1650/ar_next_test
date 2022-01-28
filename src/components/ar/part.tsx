@@ -2,7 +2,6 @@ import { Entity, Scene } from 'aframe-react';
 import { useEffect, useState } from 'react';
 
 export const Ar = () => {
-    const [rendered,setRendered] = useState(false);
 // useEffect(()=>{
 // AFRAME.registerComponent('updater', {
 // 	init: function()
@@ -36,15 +35,9 @@ export const Ar = () => {
 // 	}
 // });
 // },[]);
-useEffect(()=>{
-    if (typeof window !== "undefined") {
-        require("aframe");
-        setRendered(true);
-      }
-},[]);
 return (
     <>
-        {rendered && <Scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
+        <Scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
             <Entity primitive="a-marker" preset="hiro">
                 <Entity
                 primitive="a-box"
@@ -53,7 +46,7 @@ return (
             </Entity>
             <Entity camera></Entity>
             <Entity updater></Entity>
-        </Scene>}
+        </Scene>
     </>
 );
 

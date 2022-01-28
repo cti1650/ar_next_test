@@ -6,9 +6,16 @@ import {
   MoveBox4,
   MoveBox5,
 } from '@comp/move/Box';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Sample1 = () => {
+  const [rendered,setRendered] = useState(false);
+  useEffect(()=>{
+    if (typeof window !== "undefined") {
+        require("aframe");
+        setRendered(true);
+      }
+  },[]); 
   return (
     <>
       <h2>入門編 - sample1</h2>
@@ -22,7 +29,7 @@ const Sample1 = () => {
       <MoveBox4 />
       <h3>case5 - 箱増殖(200個)</h3>
       <MoveBox5 /> */}
-      <Ar />
+      {rendered && <Ar />}
     </>
   );
 };
