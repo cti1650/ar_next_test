@@ -15,7 +15,8 @@
   "dependencies": {
     "@ar-js-org/ar.js": "^3.3.3-es6-beta-02",
     "@artcom/react-three-arjs": "^0.3.2",
-    "@react-three/fiber": "^7.0.25",
+    "@react-three/fiber": "^7.0.26",
+    "@types/three": "^0.137.0",
     "aframe": "^1.2.0",
     "aframe-react": "^4.4.0",
     "autoprefixer": "^10.3.3",
@@ -25,12 +26,13 @@
     "core-js": "3",
     "cssnano": "5.0.8",
     "next": "11.1.0",
+    "next-transpile-modules": "^9.0.0",
     "postcss-easy-import": "3.0.0",
     "react": "17.0.2",
     "react-aframe-ar": "^1.18.0",
     "react-dom": "17.0.2",
     "tailwindcss": "^2.2.8",
-    "three": "^0.136.0"
+    "three": "^0.137.5"
   },
   "license": "ISC",
   "keywords": [],

@@ -1,8 +1,8 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
-  /* config options here */
-};
+const withTM = require('next-transpile-modules')(['three']);
+
+const nextConfig = withTM({webpack5: true});
 
 module.exports = nextConfig;

@@ -24,4 +24,11 @@
 - [A-FrameでVR選手ロッカーを作ってみた話 - Crieit](https://crieit.net/posts/A-Frame-VR-5f4e55e505ae0)  
 - [aframe-next-static/index.js at master · michaltakac/aframe-next-static](https://github.com/michaltakac/aframe-next-static/blob/master/pages/index.js)  
 - [A-Frame: パーティクルコンポーネント調査 - Qiita](https://qiita.com/matsukatsu/items/adec590eddad5510c196)  
+- [Next.js / TypeScriptでThree.js(react-three-fiber)を使うまで](https://zenn.dev/zabuton2mai/articles/b50cb6f39fa435)  
+- [Next.js 10.0.6以降のwebpack5設定方法](https://zenn.dev/kodai/articles/67ae0b8cf018ed)  
+- [Next.js + Three.jsでページのスクロールを管理して3Dモデルをアニメーションさせる 🎥 - みかづきブログ・カスタム](https://blog.kimizuka.org/entry/2021/01/19/234403)  
+- [【Next.js】Next.jsとReact Three Fiberを使ってロゴで遊んでみた | 株式会社ロジカルスタジオ](https://www.wantedly.com/companies/logical-studio/post_articles/359855)  
+- [pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)  
+
+
 
