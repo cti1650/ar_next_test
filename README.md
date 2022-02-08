@@ -30,6 +30,9 @@
 - [【Next.js】Next.jsとReact Three Fiberを使ってロゴで遊んでみた | 株式会社ロジカルスタジオ](https://www.wantedly.com/companies/logical-studio/post_articles/359855)  
 - [pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)  
 - [Performance / Adaptive - Default ⋅ Storybook](https://drei.pmnd.rs/?path=/story/performance-adaptive--adaptive-scene-st)  
+- [PanatchakornKt/AR-Card-Detector](https://github.com/PanatchakornKt/AR-Card-Detector)  
+
+
 
 
 
